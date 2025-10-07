@@ -10,10 +10,10 @@ A simple guide of how to use the 3D-printers located in the 3D-printer room. The
 > - Keep hands and fingers away from the printer while it's operating; the device will not stop for you and can cause injury.
 > - Keep away from the **nozzle** and **print bed** while hot. Freshly extruded **filament** can also be hot. They can cause burns.
 
-# About 3D printing 📖
+## About 3D printing 📖
 3D printing (FDM) is the process of a machine depositing material to create an object. Usually done layer by layer. The printer heats up and liquefies the material in the **nozzle** and pushes it though, forming the material into a small tube that gets deposited onto the object, slowly creating a 3D-printed object as the **tool head** is moving the **nozzle** around. [Learn more](https://www.youtube.com/watch?v=f94CnlQ0eq4)
 
-# General information 📌
+## General information 📌
 - Places to find models: [thingiverse](https://www.thingiverse.com/), [printables](https://www.printables.com/), [makerworld](https://makerworld.com/en)
 - Make your own models in any CAD program. For example [Onshape](https://www.onshape.com/en/).
 - For help, please contact a 3D-printer manager in person or in the *Discord* server. (see qr-code on the wall)
@@ -22,7 +22,7 @@ A simple guide of how to use the 3D-printers located in the 3D-printer room. The
 - If you wish to use a **filament** other than *PLA* or *PETG* please contact a 3D-printer manager.
 
 
-# How to print an object 📜
+## How to print an object 📜
 - Make sure that the printer you are planning to use is not occupied. If it is, then choose another printer or wait for your turn.
 - Use the on site *Mac* computer or your own computer and start the **slicer** that matches the printer. (*see* [*printers*](#printers-️))
     - when using your own computer you need to configure the **slicer** for the [printer](#printers-️) and **filament** you are using. Ask for help if unsure how to do this.
@@ -43,7 +43,7 @@ A simple guide of how to use the 3D-printers located in the 3D-printer room. The
 - If nothing went wrong and the printer is done printing then **Hurray!** You have successfully printed something. [*Clear the print bed*](#removing-printed-objects-)  to retrieve your print. Done!
 
 
-# Removing printed objects 🧹
+## Removing printed objects 🧹
 > When removing a printed object from the printer please be aware that the **sheet** and **nozzle** may still be hot.
 > Do not try to remove the  **print** from the **sheet** while it is still on the **print bed**! With the exception of glass **sheets**. Be gentle!
 > **Never!** touch the print surface. You may only touch the edges of the **sheet** as well as the tab that sticks out!
@@ -54,7 +54,7 @@ A simple guide of how to use the 3D-printers located in the 3D-printer room. The
 - Once the  **print** is free. [*Clear the print bed of any residue*](#removing-printed-objects-).
 - Return the sheet. Make sure to properly align the sheet with the **print bed** corners.
 
-# Keywords ❓
+## Keywords ❓
 - **print**: The 3D-printed object, not to confuse with to "print something", the process of making the printed object (**print**).
 - **print bed**: Surface where objects are printed.
 - **sheet**: Removable magnetic sheet placed on the **print bed**.
@@ -66,8 +66,8 @@ A simple guide of how to use the 3D-printers located in the 3D-printer room. The
 - **slice**: The process of converting a model file *(ex .stl, .step, .obj)* into a printable file *(g-code, .3mf)*. Done in the **slicer**.
 - **g-code** (file): A file containing the instructions of how to print the model for the 3D-printer to read. This is what **slicing** does, it converts model files like *.step* and *.stl* to *.gcode* that the 3D-printer understands.
 
-# Printers ⚙️
-## Bambu X1C
+## Printers ⚙️
+### Bambu X1C
 - Materials: any filament under that prints under 230 celsius and is not flexible. (*PLA* or *PETG*, contact a 3D-printer manager if intending to print another material)
 - Sheets: Textured PEI (no glue; increase bed temperature if needed), smooth PEI (use glue if required), Cool plate (use glue if required)
  - Filament size: 1.75 mm
@@ -75,7 +75,7 @@ A simple guide of how to use the 3D-printers located in the 3D-printer room. The
 - Max print size: 256x256x256 mm
 
 
-## Ender 3-V2 Pro
+### Ender 3-V2 Pro
 - Material options: any filament under that prints under 230 celsius (*PLA* or *PETG*, contact a 3D-printer manager if intending to print another material)
  - Sheet: textured PEI (no glue; increase bed temperature if needed)
  - Filament size: 1.75 mm
@@ -83,21 +83,21 @@ A simple guide of how to use the 3D-printers located in the 3D-printer room. The
  - Max print size: 220x220x190 mm
 
 
-## FLSUN Q5
+### FLSUN Q5
 - Material options: any filament under that prints under 230 celsius (*PLA* or *PETG*, contact a 3D-printer manager if intending to print another material)
  - Sheet: permanent glass sheet (use glue if needed)
  - Filament size: 1.75 mm
  - Slicer: [OrcaSlicer](https://github.com/SoftFever/OrcaSlicer)
  - Max print size: 200x200 mm
 
- ## Raise-3D E2
+### Raise-3D E2
 - Material options: any filament under that prints under 300 celsius (*PLA* or *PETG*, contact a 3D-printer manager if intending to print another material)
  - Sheet: smooth sheet (use glue if needed)
  - Filament size: 1.75 mm
  - Slicer: [IdeaMaker](https://www.raise3d.com/ideamaker/)
  - Max print size: single 330x240x240, dual 295x240x240 mm
 
-## UltiMaker S3
+### UltiMaker S3
 - Material options: any filament under that prints under 230 celsius (*PLA* or *PETG*, contact a 3D-printer manager if intending to print another material)
  - Sheet: glass sheet (use glue if needed)
  - Filament size: 2.85 mm (**not 1.75 mm!**)
